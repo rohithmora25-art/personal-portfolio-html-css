@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal Portfolio of Rohit Mora - Computer Science Student & Frontend Developer">
+  <title>Rohit Mora | Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">Rohit<span>.dev</span></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <nav class="nav-menu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#achievements" class="nav-link">Achievements</a>
+        <a href="#contact" class="nav-link nav-btn">Contact Me</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero / Profile Section -->
+  <section id="home" class="hero">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <span class="badge">Welcome to my space</span>
+        <h1 class="hero-title">Hi, I'm <span class="highlight">Rohit Mora</span></h1>
+        <h2 class="hero-subtitle">Computer Science Engineering Student & Web Enthusiast</h2>
+        <p class="hero-description">
+          Passionate about building responsive, modern, and accessible web experiences using pure HTML & CSS.
+          Constantly learning and exploring creative design systems and frontend architectures.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Let's Connect</a>
+        </div>
+      </div>
+      <div class="hero-image-wrapper">
+        <div class="avatar-card">
+          <div class="avatar-circle">
+            <span class="avatar-initials">RM</span>
+          </div>
+          <div class="status-badge">
+            <span class="status-dot"></span> Open to Internships
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <div class="title-underline"></div>
+        <p class="section-subtitle">A glimpse into my background, interests, and academic journey</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon">🎓</div>
+          <h3>Education</h3>
+          <p><strong>B.Tech in Computer Science</strong></p>
+          <p>Pre-final year undergraduate focusing on Web Technologies, Data Structures, and Software Design.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">💻</div>
+          <h3>Interests</h3>
+          <p>Frontend Development, UI/UX Prototyping, Responsive Web Systems, and Open-Source Collaboration.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">🎯</div>
+          <h3>Career Goal</h3>
+          <p>Aspiring Full-Stack Software Engineer dedicated to crafting intuitive, performant user interfaces.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="title-underline"></div>
+        <p class="section-subtitle">Technologies and tools I work with to bring designs to life</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Web Foundations</h3>
+          <div class="skill-tags">
+            <span class="tag">HTML5 Semantic Structure</span>
+            <span class="tag">CSS3 Modern Styling</span>
+            <span class="tag">Flexbox & CSS Grid</span>
+            <span class="tag">Responsive Web Design</span>
+            <span class="tag">CSS Animations</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Design & Principles</h3>
+          <div class="skill-tags">
+            <span class="tag">Mobile-First Design</span>
+            <span class="tag">Web Accessibility (a11y)</span>
+            <span class="tag">UI/UX Layouts</span>
+            <span class="tag">Cross-Browser Consistency</span>
+            <span class="tag">Typography & Spacing</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Tools & Workflow</h3>
+          <div class="skill-tags">
+            <span class="tag">Git & GitHub</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Chrome DevTools</span>
+            <span class="tag">Figma Inspection</span>
+            <span class="tag">Markdown</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="title-underline"></div>
+        <p class="section-subtitle">Selected web projects showcasing clean structure and responsive styling</p>
+      </div>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card">
+          <div class="project-banner banner-1">
+            <span class="project-category">Portfolio</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Student Personal Portfolio</h3>
+            <p class="project-desc">
+              A comprehensive personal portfolio website highlighting student achievements, skill matrices, responsive layouts, and interactive CSS cards.
+            </p>
+            <div class="project-tech">
+              <span>HTML5</span>
+              <span>CSS3 Flexbox</span>
+              <span>Media Queries</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn-link">View Details &rarr;</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card">
+          <div class="project-banner banner-2">
+            <span class="project-category">Food Tech</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">FoodieHub Delivery Platform</h3>
+            <p class="project-desc">
+              Food delivery showcase webpage featuring categorized meal cards, discount coupons, restaurant highlights, and order workflow sections.
+            </p>
+            <div class="project-tech">
+              <span>HTML5 Semantic</span>
+              <span>CSS Grid</span>
+              <span>CSS Badges</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn-link">View Details &rarr;</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card">
+          <div class="project-banner banner-3">
+            <span class="project-category">E-Commerce</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">TrendStore Online Marketplace</h3>
+            <p class="project-desc">
+              Multi-category online shopping landing page featuring flash sales, product grids with pricing badges, customer reviews, and newsletter capture.
+            </p>
+            <div class="project-tech">
+              <span>HTML5</span>
+              <span>CSS3 Variables</span>
+              <span>Responsive Grid</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn-link">View Details &rarr;</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="achievements">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Achievements & Milestones</h2>
+        <div class="title-underline"></div>
+        <p class="section-subtitle">Academic milestones, certifications, and project accomplishments</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2026</span>
+            <h3>Web Development Showcase Finalist</h3>
+            <p>Built a responsive multi-page web layout recognized for accessibility and modern CSS architecture.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2025</span>
+            <h3>Frontend Certifications</h3>
+            <p>Completed hands-on certifications in Responsive Web Design, CSS Grid mastery, and UI Layout Best Practices.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2024</span>
+            <h3>Dean's Honor Roll</h3>
+            <p>Awarded academic excellence for maintaining top grades in Computer Science core coursework.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="title-underline"></div>
+        <p class="section-subtitle">Have a question or looking to collaborate? Send me a message!</p>
+      </div>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h3>Contact Details</h3>
+          <p>Feel free to reach out through any of the channels below:</p>
+          <div class="info-item">
+            <span class="info-icon">📍</span>
+            <div>
+              <strong>Location:</strong>
+              <p>Hyderabad, India</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">📧</span>
+            <div>
+              <strong>Email:</strong>
+              <p>contact.rohithmora@example.com</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">🐙</span>
+            <div>
+              <strong>GitHub:</strong>
+              <p>github.com/rohithmora25-art</p>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Project Inquiry / Opportunity" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; 2026 Rohit Mora. Designed with pure HTML5 &amp; CSS3. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#home">Back to Top &uarr;</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
